@@ -44,11 +44,13 @@ const Articles = () => {
               {item.thumbnail && (
                 <div className={styles.thumbnailContainer}>
                   <img src={item.thumbnail} alt={item.title} className={styles.thumbnail} />
-                  <div className={styles.playOverlay}>
-                    <svg viewBox="0 0 24 24" fill="white">
-                      <polygon points="5 3 19 12 5 21 5 3"/>
-                    </svg>
-                  </div>
+                  {item.type === 'talk' && (
+                    <div className={styles.playOverlay}>
+                      <svg viewBox="0 0 24 24" fill="white">
+                        <polygon points="5 3 19 12 5 21 5 3"/>
+                      </svg>
+                    </div>
+                  )}
                 </div>
               )}
               

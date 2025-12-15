@@ -96,6 +96,7 @@ export const content = [
     title: "The Art Behind Better AI: How We Achieved a 46% Speed Boost and 23× Cost Reduction",
     description: "A deep dive into context engineering - the discipline of optimizing data before it reaches the LLM. Learn how we moved heavy lifting from expensive models to deterministic preprocessing, enabling massive performance gains.",
     url: "https://www.wix.engineering/post/the-art-behind-better-ai-how-we-achieved-a-46-speed-boost-and-23-cost-reduction",
+    thumbnail: "https://static.wixstatic.com/media/66bc35_3f8c625647a84bb584e9fa4900e3fd99~mv2.png/v1/fill/w_740,h_531,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/66bc35_3f8c625647a84bb584e9fa4900e3fd99~mv2.png",
     publication: "Wix Engineering",
     date: "2024",
     tags: ["AI", "LLMs", "Context Engineering", "Performance"]
