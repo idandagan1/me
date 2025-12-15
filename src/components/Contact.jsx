@@ -23,7 +23,9 @@ const Contact = () => {
           </p>
           
           <motion.a
-            href={`mailto:${personalInfo.email}`}
+            href={personalInfo.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
             className={styles.emailBtn}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
