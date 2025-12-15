@@ -90,8 +90,9 @@ export const skills = [
   { name: "System Design", level: 90 }
 ]
 
-export const articles = [
+export const content = [
   {
+    type: "article",
     title: "The Art Behind Better AI: How We Achieved a 46% Speed Boost and 23× Cost Reduction",
     description: "A deep dive into context engineering - the discipline of optimizing data before it reaches the LLM. Learn how we moved heavy lifting from expensive models to deterministic preprocessing, enabling massive performance gains.",
     url: "https://www.wix.engineering/post/the-art-behind-better-ai-how-we-achieved-a-46-speed-boost-and-23-cost-reduction",
@@ -100,12 +101,22 @@ export const articles = [
     tags: ["AI", "LLMs", "Context Engineering", "Performance"]
   },
   {
+    type: "article",
     title: "Things to Know Before Running DB Changes",
     description: "Database changes are different from code changes and require more planning. Learn about the pitfalls of gradual migrations with feature toggles and how to avoid performance issues with composite primary keys.",
     url: "https://www.wix.engineering/post/things-to-know-before-running-db-changes",
     publication: "Wix Engineering",
     date: "2022",
     tags: ["MySQL", "Database", "Feature Toggles", "Performance"]
+  },
+  {
+    type: "talk",
+    title: "Node.js-IL Meetup Talk",
+    description: "A talk I gave at the Node.js-IL community meetup, sharing insights and experiences with fellow developers.",
+    url: "https://www.youtube.com/watch?v=M3oeoqAOpU4",
+    publication: "Node.js-IL",
+    date: "2022",
+    tags: ["Node.js", "Community", "Talk"]
   }
 ]
 
