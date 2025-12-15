@@ -106,6 +106,7 @@ export const content = [
     title: "Things to Know Before Running DB Changes",
     description: "Database changes are different from code changes and require more planning. Learn about the pitfalls of gradual migrations with feature toggles and how to avoid performance issues with composite primary keys.",
     url: "https://www.wix.engineering/post/things-to-know-before-running-db-changes",
+    thumbnail: "https://static.wixstatic.com/media/66bc35_463f049a746b40a384db149d0d999fcb~mv2.jpg/v1/fill/w_740,h_494,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/66bc35_463f049a746b40a384db149d0d999fcb~mv2.jpg",
     publication: "Wix Engineering",
     date: "2022",
     tags: ["MySQL", "Database", "Feature Toggles", "Performance"]
