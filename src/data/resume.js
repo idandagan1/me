@@ -114,6 +114,7 @@ export const content = [
     title: "Node.js-IL Meetup Talk",
     description: "A talk I gave at the Node.js-IL community meetup, sharing insights and experiences with fellow developers.",
     url: "https://www.youtube.com/watch?v=M3oeoqAOpU4",
+    thumbnail: "https://i.ytimg.com/vi/M3oeoqAOpU4/hq720.jpg",
     publication: "Node.js-IL",
     date: "2022",
     tags: ["Node.js", "Community", "Talk"]

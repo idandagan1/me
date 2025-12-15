@@ -41,6 +41,17 @@ const Articles = () => {
               transition={{ duration: 0.5, delay: 0.2 + index * 0.15 }}
               whileHover={{ y: -8, boxShadow: "0 20px 40px rgba(0,0,0,0.12)" }}
             >
+              {item.thumbnail && (
+                <div className={styles.thumbnailContainer}>
+                  <img src={item.thumbnail} alt={item.title} className={styles.thumbnail} />
+                  <div className={styles.playOverlay}>
+                    <svg viewBox="0 0 24 24" fill="white">
+                      <polygon points="5 3 19 12 5 21 5 3"/>
+                    </svg>
+                  </div>
+                </div>
+              )}
+              
               <div className={styles.cardHeader}>
                 <span className={styles.publication}>
                   {item.type === 'talk' ? '🎤 ' : '📝 '}{item.publication}
