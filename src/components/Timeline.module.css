@@ -1,0 +1,31 @@
+.timeline {
+  background: var(--color-bg-alt);
+  padding: 6rem 2rem;
+  overflow: hidden;
+}
+
+.timelineContainer {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, var(--color-primary), var(--color-accent));
+  transform: translateX(-50%);
+  border-radius: 2px;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .line {
+    left: 20px;
+  }
+}
+

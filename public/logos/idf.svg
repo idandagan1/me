@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40">
+  <!-- Shield shape -->
+  <path d="M50 2 L90 12 L90 28 Q90 38 50 38 Q10 38 10 28 L10 12 Z" fill="none" stroke="#1C1917" stroke-width="3"/>
+  <!-- Text -->
+  <text x="50" y="27" font-family="Arial Black, Arial, sans-serif" font-size="18" font-weight="900" fill="#1C1917" text-anchor="middle">IDF</text>
+</svg>

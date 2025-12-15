@@ -1,0 +1,105 @@
+.skills {
+  background: var(--color-bg);
+  padding: 6rem 2rem;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.skillsColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.skillItem {
+  background: var(--color-card);
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.skillHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.skillName {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.skillLevel {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.barContainer {
+  height: 8px;
+  background: var(--color-bg-alt);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  border-radius: 4px;
+}
+
+.techCloud {
+  text-align: center;
+  padding: 3rem;
+  background: var(--color-card);
+  border-radius: 20px;
+  box-shadow: var(--shadow-md);
+}
+
+.cloudTitle {
+  font-size: 1.25rem;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+.cloudTags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.cloudTag {
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(13, 148, 136, 0.08), rgba(249, 115, 22, 0.08));
+  border: 1px solid var(--color-border);
+  border-radius: 25px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  cursor: default;
+  transition: all var(--transition-fast);
+}
+
+.cloudTag:hover {
+  background: linear-gradient(135deg, rgba(13, 148, 136, 0.15), rgba(249, 115, 22, 0.15));
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .techCloud {
+    padding: 2rem 1.5rem;
+  }
+}
+
