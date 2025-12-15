@@ -94,7 +94,7 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <p className={styles.copyright}>
-            © {new Date().getFullYear()} {personalInfo.name}. Built with React & Framer Motion.
+            © {new Date().getFullYear()} {personalInfo.name}.
           </p>
         </motion.div>
       </div>
